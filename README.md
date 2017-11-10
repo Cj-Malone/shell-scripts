@@ -5,4 +5,9 @@
 ## `nginx-{dark,light}.sh`
 
 seds a given file path to swap HTTP style headers, used on [KAFF](https://keepawayfromfire.co.uk/).
-Use with systemd timers.
+Use with systemd timers or cron.
+
+## `open`
+
+Quick shortcut for `gio open`, opens either the argument or the current directory.
+

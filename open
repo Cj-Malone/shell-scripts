@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ "$@" ]; then
+	gio open "$@"
+else
+	gio open "$PWD"
+fi
+
